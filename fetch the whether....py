@@ -12,7 +12,7 @@ from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor  # ML
 from sklearn.metrics import mean_squared_error  # For evaluating ML models (not used here)
 
 # API Configuration
-API_KEY = '9f39358739a87c32ca64c4a33f26f292'  # Replace with your actual API key
+API_KEY = 'YOUR_API__KEY'  # Replace with your actual API key
 BASE_URL = 'https://api.openweathermap.org/data/2.5/'
 
 def get_current_weather(city):
